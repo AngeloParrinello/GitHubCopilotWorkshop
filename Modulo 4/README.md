@@ -59,12 +59,13 @@ Inizia aprendo il file di test presente in `Modulo 4/Esercizio/` e procedi con l
 
 ### Scrivi prompt precisi e mirati
 Quando chiedi a Copilot di generare unit test, contestualizza sempre la richiesta. Specifica:
-- Cosa deve essere testato (es. addTask)
+- Cosa deve essere testato (es. Add)
 - Quale comportamento ti aspetti
 - Eventuali casi limite da considerare
+- Aggiungere al contesto la classe da testare
 
 ```
-/test generate unit tests for the addTask method in the TaskList class. The method should add a task to the list and return the updated list. Consider edge cases like adding a null task or an empty task.
+/test generate unit tests for the Add method in the Calculator class. The method should handle both positive and negative numbers, and edge cases like zero and null inputs. Ensure that the tests cover all possible scenarios.
 ```
 
 ### Raffina i prompt quando i risultati non ti convincono
